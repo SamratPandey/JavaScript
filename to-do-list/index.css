@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper{
+    width: 400px;
+    height: 100px;
+    display: flex;  
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px ;
+}
+
+.textArea{
+    height: 40px;
+    width: 250px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+    left: 0;
+}
+.btnSubmit{
+    margin-left: 10px;
+    padding: 10px 30px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.btnSubmit:hover{
+    background-color: black;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+.items{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+}
+.main{
+    height: 150px;
+    width: 250px;
+    background-color: rgba(32, 8, 54, 0.459);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.area{
+    height: 100px;
+    width: 250px;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(134, 34, 134);
+}
+
+.btn-complete{
+    padding: 5px 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 10px;
+}
+.btn-complete:hover{
+    background-color: black;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-delete{
+    padding: 5px 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    margin-right: 10px;
+}
+.btn-delete:hover{
+    background-color: black;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+.completed{
+    text-decoration:line-through;
+}
