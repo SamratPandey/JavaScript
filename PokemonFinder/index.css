@@ -171,8 +171,11 @@ input#search-bar{
         font-size: 18px;
     }
     .main{
+        padding-top: 4rem;
         flex-direction: column;
         height: auto;
+        justify-content: center;
+        gap: 2rem;
     }
     .card{
         font-size: 25px;
@@ -191,9 +194,11 @@ input#search-bar{
         font-size: 25px !important;
     }
     .main{
+        padding-top: 4rem;
         flex-direction: column;
         height: auto;
         justify-content: center;
+        gap: 2rem;
     }
     .card{
         font-size: 20px;
@@ -201,13 +206,6 @@ input#search-bar{
     }
     .search-container{
         width: 100%;
-    }
-    .pokemon-wrapper{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .pokemon {
-        width: 80%;
     }
 }
 
@@ -221,11 +219,7 @@ input#search-bar{
         font-size: 14px;
         margin-bottom: 10px;
     }
-    .main{
-        flex-direction: column;
-        height: auto;
-        justify-content: center;
-    }
+    
     .card{
         font-size: 18px;
         padding: 6px 12px;
@@ -233,14 +227,6 @@ input#search-bar{
     .search-container{
         width: 100%;
         padding-top: 50px;
-    }
-    .pokemon-wrapper{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .pokemon {
-        width: 90%;
-        margin-bottom: 15px;
     }
     .search-btn{
         font-size: 16px;
